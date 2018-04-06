@@ -1,21 +1,28 @@
-.lala{
+/*.lala{
 	max-width: none; width: 100%
 }
-
+*/
 div[class*="col-"]{
-	border: 1px solid black;
+	border: 0px solid black;
 }
 
-h1{
+/*h1{
 	text-align: center;
-}
+	font-family: times;
+	/*background-color: #959ea0; 
+}*/
 
+h2{
+	text-align: center;
+	font-family: times;
+}
 h3{
 	text-align: center;
 }
 
 h4{
 	text-align: center;
+	font-family: times;
 }
 
 .a{
@@ -23,9 +30,10 @@ h4{
 }
 
 #b{
-	margin-left: 70px; padding-bottom: 300px;
+	margin-left: 70px; padding-bottom: 25px;
+	background-image: url(gambar2.jpg);
 }
 
 #c{
-	margin-left: 100px; padding-bottom: 300px;
+	background-color: #70bbcc; 
 }
