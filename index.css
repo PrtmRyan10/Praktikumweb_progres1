@@ -8,6 +8,7 @@ h2{
 }
 h3{
 	text-align: center;
+	font-family: times;
 }
 
 h4{
@@ -33,4 +34,8 @@ h4{
 
 #e{
 	background-image: url(img/bg1.jpg);
+}
+
+#f{
+	background-image: url(img/bg2.jpg);
 }
