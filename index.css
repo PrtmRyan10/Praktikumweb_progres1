@@ -43,3 +43,13 @@ h4{
 #g{
 	background-image: url(img/bg3.jpg);
 }
+.team-member {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.team-member img {
+  width: 225px;
+  height: 225px;
+  border: 7px solid #fff;
+}
