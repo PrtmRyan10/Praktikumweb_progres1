@@ -25,3 +25,18 @@
          document.getElementById("resCustomLoop").innerHTML = textcusLoop;
        });
      });
+
+  $(document).ready(function(){
+       $("#nnpFind").click(function(){
+        var nnp = document.getElementById("nnpNumber").value;
+      var resNnp = "";
+        if (nnp < 0) {
+             resNnp += nnp + " Negative";
+          }else if (nnp > 0) {
+             resNnp += nnp + " Positive";
+        }else{
+             resNnp += nnp + " Netral";
+        }
+      document.getElementById("nnpRes").innerHTML = resNnp;
+      });
+    });
